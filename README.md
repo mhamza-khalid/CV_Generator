@@ -1,8 +1,21 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# CV Generator
 
-Currently, two official plugins are available:
+This project is a CV Generator that allows users to create and customize their own CVs. The application was built as part of The Odin Project curriculum, using React for the front-end interface. The live version of the project is available [here](https://main--cvmakerodin.netlify.app/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- User-friendly interface for creating a CV.
+- Ability to input personal information, work experience, education, and skills.
+- Download the generated CV as a PDF.
+- Real-time preview of the CV as you input information.
+- Responsive design, compatible with both desktop and mobile devices.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **CSS**: For styling the components.
+- **JavaScript (ES6+)**: Core functionality.
+- **HTML5**: Structure of the application.
+- **Netlify**: Hosting the live project.
