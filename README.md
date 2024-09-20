@@ -4,6 +4,8 @@
 
 This project is a CV Generator that allows users to create and customize their own CVs. The application was built as part of The Odin Project curriculum, using React for the front-end interface. The live version of the project is available [here](https://main--cvmakerodin.netlify.app/).
 
+Inspired by: https://renchester.github.io/cv-generator/
+
 ## Features
 
 - User-friendly interface for creating a CV.
