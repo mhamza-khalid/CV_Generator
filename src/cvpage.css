@@ -1,0 +1,274 @@
+
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.cvPage{
+    height: 862.5px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2); 
+    padding:15px;
+
+    display: grid;
+    grid-template-columns: 345px 195px;
+    grid-template-rows: auto 1fr;
+    gap: 30px;
+    word-break: break-word;
+}
+
+.info{
+    grid-column: span 1;
+}
+
+.info__name{
+    font-size: 27px;
+    font-weight: 600;
+    color: #00457e;
+    font-family: "Raleway", sans-serif;
+  }
+
+.info__title{
+    font-size: 21px;
+    color: #00457e;
+    font-family: "Montserrat", system-ui;
+}
+
+.info__summary{
+    margin-top: 8px;
+    font-size: 12.25px;
+    font-family: "Raleway", sans-serif;
+}
+
+.contact{
+    grid-column-start: 2;
+    grid-column-end: 3 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+    text-wrap: wrap;
+    width: fit-content;
+}
+.contact_wrapper{
+    
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cv_headers{
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+    border-bottom: 1.2px solid #00457e;
+    font-family: "Montserrat", system-ui;
+    font-size: 12.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #00268d;
+}
+
+.edu__box{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.edu__box--date{
+    margin-left: auto;
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 14px;
+    font-size: 11px;
+    font-style: italic;
+    text-align: right;
+    font-family: "Raleway", sans-serif;
+}
+
+.edu__box--uni{
+    font-size: 15.5px;
+    font-weight: 700;
+    font-family: "Montserrat", system-ui;
+}
+
+.edu__box--degree{
+    font-size: 15px;
+    font-family: "Montserrat", system-ui;
+    margin-top: 2px;
+}
+
+.edu__box--gpa{
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+}
+
+.onGoingWork{
+    padding: 25px 15px 20px 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    box-shadow: none;
+    transition: border-color 0.3s ease;
+    background-color: #f3f3f4;
+    font-family: "Poppins", system-ui;
+    
+}
+
+.workGoingLabel{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#onGoingWork{
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.work{
+    margin-top: 30px;
+}
+
+.work_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.work__box--title{
+    font-size: 15.5px;
+    font-weight: 700;
+    font-family: "Montserrat", system-ui;
+}
+
+.work__box--company{
+    font-size: 15px;
+    font-family: "Montserrat", system-ui;
+    margin-top: 2px;
+}
+.work__box--date{
+    margin-top: 2px;
+    margin-bottom: 14px;
+    font-size: 11px;
+    font-style: italic;
+    text-align: right;
+    font-family: "Raleway", sans-serif;
+}
+
+.work_summ{
+    padding: 15px 0px;
+    font-family: "Raleway", sans-serif;
+    font-size: 12.5px;
+}
+
+.skills{
+    grid-column: 2 / 3;
+}
+
+.skillButton{
+    background-color: #005994;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 40px;
+    max-width: 300px;
+    width: fit-content;
+    height: 32px;
+    white-space: nowrap;
+    gap: 10px;
+    color: white;
+    font-family: "Poppins", system-ui;
+    border: 0px;
+    margin-top: 20px;
+}
+
+
+.de_skillButton{
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    padding: 5px;
+}
+.de_skillButton:hover{
+
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+
+
+.skillbuttons{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-position: inside;
+  }
+
+  .skillListing{
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Montserrat", system-ui;
+    margin-bottom: 10px;
+  }
+
+.Sidebar{
+    width: '38%';
+    background-color : "#f3f3f4";
+}
+
+@media (max-width: 1680px){
+    .container{
+        width: 90%;
+    }
+}
+
+@media (max-width: 1400px){
+    .container{
+        width: 98%;
+    }
+}
+
+@media (max-width: 1000px){
+    .container{
+        width: 100%;
+        display: block;
+    }
+    .Sidebar{
+        width: 100%;
+    }
+    .preview{
+        width: 100%;
+    }
+    .sidebar_Row{
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 651px){
+    .cvPage{
+        display: block;
+    }
+    .info__summary{
+        margin-bottom: 15px;
+    }
+    .contact{
+        margin-bottom: 20px;
+    }
+}
