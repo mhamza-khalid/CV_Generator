@@ -211,7 +211,7 @@ export default function SideBar(){
             </div>
             <div className="title_subtext">
                 <p className="sub__text">Create your CV by filling out the forms below! Your CV will be dynamically updated in the preview.</p>
-                <a href='#' className='repo__link'>Check out the github repo for this project over here</a>
+                <a href='https://github.com/mhamza-khalid/CV_Generator' className='repo__link'>Check out the github repo for this project over here</a>
             </div>
             <h1 className="side_titles">Basic Info</h1>
             <div>
