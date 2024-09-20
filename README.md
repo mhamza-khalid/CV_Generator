@@ -10,7 +10,6 @@ Inspired by: https://renchester.github.io/cv-generator/
 
 - User-friendly interface for creating a CV.
 - Ability to input personal information, work experience, education, and skills.
-- Download the generated CV as a PDF.
 - Real-time preview of the CV as you input information.
 - Responsive design, compatible with both desktop and mobile devices.
 
